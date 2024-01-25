@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Good",
+        "src": "thumbsUp",
+        "alt": "Good"
+    },
+    {
+        "label": "Not Sure",
+        "src": "notSure",
+        "alt": "Not Sure"
+    },
+    {
+        "label": "Bad",
+        "src": "thumbsDown",
+        "alt": "Bad"
+    }
+]

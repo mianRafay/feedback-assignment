@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s ease forwards;
+}
+
+@keyframes revealLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .reveal-left {
+    animation: revealLeft 0.5s ease-out forwards;
+  }
+  
+@keyframes revealRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .reveal-right {
+    animation: revealRight 0.5s ease-out forwards;
+  }
