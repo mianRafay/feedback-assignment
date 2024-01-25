@@ -16,7 +16,7 @@ This project, "feedback-form", is a modern web application built using React,Typ
 ## Setup and Installation
 
 1. **Clone the Repository:**
-   git clone https://github.com/mianRafay/feedback-assignmen)https://github.com/mianRafay/feedback-assignment
+   git clone https://github.com/mianRafay/feedback-assignment
 2. **Install Packages:**
    npm i
 3. **Front End Start:**
